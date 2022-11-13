@@ -31,20 +31,10 @@ bikeshare = pd.read_csv('hour.csv')
 
 # first five rows of dataset
 
-# In[4]:
-
-
 bikeshare.head(5)
-
-
-# In[5]:
-
 
 bikeshare.dtypes
 
-
-# ### Task flow with respect to feature processing and model training
-# 
 # * Identify continuous features
 # 
 # * Identify categorical features
@@ -68,9 +58,6 @@ bikeshare.dtypes
 # ### EDA &  Visualization
 
 # #### Visualize the hour (hr) column with an appropriate plot and find the busy hours of bike sharing
-
-# In[6]:
-
 
 bikeshare.groupby('hr').sum('cnt')['cnt'].plot.bar()
 
