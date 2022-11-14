@@ -64,14 +64,9 @@ bikeshare.groupby('hr').sum('cnt')['cnt'].plot.bar()
 
 # #### Visualize the distribution of count, casual and registered variables
 
-# In[7]:
-
 
 # distribution of casual
 sns.distplot(bikeshare.casual);
-
-
-# In[8]:
 
 
 # distribution of registered
