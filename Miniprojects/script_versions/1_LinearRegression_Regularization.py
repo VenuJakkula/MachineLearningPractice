@@ -79,9 +79,6 @@ sns.distplot(bikeshare.cnt);
 
 # #### Describe the relation of weekday, holiday and working day
 
-# In[10]:
-
-
 # Working days from 1-5 (mon-fri)
 bikeshare[bikeshare.workingday==1].weekday.unique()
 
