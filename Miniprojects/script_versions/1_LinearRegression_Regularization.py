@@ -73,9 +73,6 @@ sns.distplot(bikeshare.casual);
 sns.distplot(bikeshare.registered);
 
 
-# In[9]:
-
-
 # distribution of count
 sns.distplot(bikeshare.cnt);
 
