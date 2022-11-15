@@ -83,9 +83,6 @@ sns.distplot(bikeshare.cnt);
 bikeshare[bikeshare.workingday==1].weekday.unique()
 
 
-# In[11]:
-
-
 # Holiday possible on working days
 bikeshare[bikeshare.holiday==1].weekday.unique()
 
