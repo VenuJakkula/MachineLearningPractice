@@ -29,11 +29,6 @@ from sklearn.metrics import r2_score
 bikeshare = pd.read_csv('hour.csv')
 
 
-# first five rows of dataset
-
-bikeshare.head(5)
-
-bikeshare.dtypes
 
 # * Identify continuous features
 # 
