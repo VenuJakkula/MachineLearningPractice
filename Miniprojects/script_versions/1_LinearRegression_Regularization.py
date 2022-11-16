@@ -89,9 +89,6 @@ bikeshare[(bikeshare.holiday==0) & (bikeshare.workingday==0)].weekday.unique()
 # 
 # Hint: Stacked barchart
 
-# In[13]:
-
-
 # stacked bar chart for year 2011
 bikeshare[bikeshare.yr==0].groupby('mnth').sum(['casual','registered'])[['casual','registered']].plot.bar(stacked=True);
 plt.title("Casual and Registered in 2011")
