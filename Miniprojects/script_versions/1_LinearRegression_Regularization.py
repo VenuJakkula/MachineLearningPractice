@@ -81,10 +81,6 @@ bikeshare[bikeshare.workingday==1].weekday.unique()
 # Holiday possible on working days
 bikeshare[bikeshare.holiday==1].weekday.unique()
 
-
-# In[12]:
-
-
 # Not a holiday, not a working day (Sun, Sat)
 bikeshare[(bikeshare.holiday==0) & (bikeshare.workingday==0)].weekday.unique()
 
