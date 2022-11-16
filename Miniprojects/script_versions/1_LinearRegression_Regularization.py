@@ -106,9 +106,6 @@ plt.show()
 
 # #### Analyze the correlation between features with heatmap
 
-# In[15]:
-
-
 sns.heatmap(bikeshare.iloc[:,:].corr(), cmap='RdBu')
 
 
