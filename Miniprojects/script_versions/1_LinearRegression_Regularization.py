@@ -94,10 +94,6 @@ bikeshare[bikeshare.yr==0].groupby('mnth').sum(['casual','registered'])[['casual
 plt.title("Casual and Registered in 2011")
 plt.show()
 
-
-# In[14]:
-
-
 # stacked bar chart for year 2012
 bikeshare[bikeshare.yr==1].groupby('mnth').sum(['casual','registered'])[['casual','registered']].plot.bar(stacked=True)
 plt.title("Casual and Registered in 2012")
