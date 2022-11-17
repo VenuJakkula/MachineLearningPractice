@@ -107,8 +107,6 @@ sns.heatmap(bikeshare.iloc[:,:].corr(), cmap='RdBu')
 
 # #### Visualize the box plot of casual and registered variables to check the outliers
 
-# In[16]:
-
 
 fig, axes = plt.subplots(nrows=1,ncols=2)
 sns.boxplot(data=bikeshare,y="casual",orient="v",ax=axes[0])
