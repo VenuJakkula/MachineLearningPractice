@@ -118,8 +118,6 @@ plt.show()
 
 # #### Drop unwanted columns
 
-# In[17]:
-
 
 bikeshare1 = bikeshare.drop(['instant', 'dteday'], axis = 1)
 bikeshare1.shape
