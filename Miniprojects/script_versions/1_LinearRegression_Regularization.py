@@ -147,9 +147,6 @@ scaled_data.head(2)
 # 
 # Hint: `sklearn.preprocessing.OneHotEncoder`
 
-# In[21]:
-
-
 onehot = OneHotEncoder()
 onehot_encoded = onehot.fit_transform(scaled_data[categorical_features]).toarray()
 onehot_encoded.shape
