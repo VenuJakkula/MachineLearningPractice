@@ -123,9 +123,6 @@ bikeshare1 = bikeshare.drop(['instant', 'dteday'], axis = 1)
 bikeshare1.shape
 
 
-# In[18]:
-
-
 # Identifying categorical and continuous variables
 cont_features = ['temp','atemp','hum','windspeed'] #,'casual','registered','cnt']
 categorical_features = ['season', 'yr', 'mnth','hr','holiday','weekday','weathersit']
