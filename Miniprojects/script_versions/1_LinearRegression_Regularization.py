@@ -132,9 +132,6 @@ categorical_features = ['season', 'yr', 'mnth','hr','holiday','weekday','weather
 # 
 # **Note:** Include the target variables
 
-# In[19]:
-
-
 std_scaler = StandardScaler()
 scaled_data = pd.DataFrame(std_scaler.fit_transform(bikeshare1[cont_features]), columns = cont_features)
 scaled_data.shape
