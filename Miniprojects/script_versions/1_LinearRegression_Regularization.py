@@ -136,10 +136,6 @@ std_scaler = StandardScaler()
 scaled_data = pd.DataFrame(std_scaler.fit_transform(bikeshare1[cont_features]), columns = cont_features)
 scaled_data.shape
 
-
-# In[20]:
-
-
 # scaled features + categorical in one dataframe
 scaled_data
 for i in categorical_features:
