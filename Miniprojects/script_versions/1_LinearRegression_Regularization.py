@@ -156,9 +156,6 @@ onehot_encoded
 
 # #### Specify features and targets after applying scaling and one-hot encoding
 
-# In[23]:
-
-
 features = np.concatenate((scaled_data[['temp','atemp','hum','windspeed']].values, onehot_encoded), axis=1)
 #features = scaled_data.values
 features.shape
