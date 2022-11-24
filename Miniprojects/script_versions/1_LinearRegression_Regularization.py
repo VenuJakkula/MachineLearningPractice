@@ -176,9 +176,6 @@ scaled_target.shape
 # 
 # As there are 3 target variables, choose the count (`cnt`) variable.
 
-# In[25]:
-
-
 target1 = bikeshare1[['cnt']]
 
 
