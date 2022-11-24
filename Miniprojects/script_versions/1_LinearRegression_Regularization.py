@@ -160,10 +160,6 @@ features = np.concatenate((scaled_data[['temp','atemp','hum','windspeed']].value
 #features = scaled_data.values
 features.shape
 
-
-# In[24]:
-
-
 scaled_target = bikeshare1[['casual','registered','cnt']]
 scaled_target.shape
 
