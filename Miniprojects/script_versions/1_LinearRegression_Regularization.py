@@ -151,10 +151,6 @@ onehot = OneHotEncoder()
 onehot_encoded = onehot.fit_transform(scaled_data[categorical_features]).toarray()
 onehot_encoded.shape
 
-
-# In[22]:
-
-
 onehot_encoded
 
 
