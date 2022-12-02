@@ -179,9 +179,6 @@ scaled_target.shape
 target1 = bikeshare1[['cnt']]
 
 
-# In[26]:
-
-
 x_train, x_test, y_train, y_test = train_test_split(features, target1)
 x_train.shape, y_train.shape
 
@@ -195,9 +192,6 @@ x_train.shape, y_train.shape
 # $X$ is the input feature value of each instance
 # 
 # $Y$ is Output value of each instance
-
-# In[27]:
-
 
 y = y_train.values
 # Adding ones to X
