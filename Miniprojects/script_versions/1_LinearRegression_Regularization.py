@@ -211,8 +211,6 @@ temp1 = np.linalg.inv(X_Xt_dot)
 temp1.shape
 
 
-# In[29]:
-
 
 # X_transpose * Y
 temp2 = X_t.dot(y)
