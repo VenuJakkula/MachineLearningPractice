@@ -199,9 +199,6 @@ X = np.append(np.ones((x_train.shape[0],1)),x_train, axis=1)
 X.shape
 
 
-# In[28]:
-
-
 # X_transpose * X
 X_t = np.transpose(X)
 X_Xt_dot = X_t.dot(X)
