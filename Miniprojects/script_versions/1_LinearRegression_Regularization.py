@@ -216,8 +216,6 @@ coefs = temp1.dot(temp2)
 coefs.shape
 
 
-# In[30]:
-
 
 # Above steps in one line
 y = y_train.values
