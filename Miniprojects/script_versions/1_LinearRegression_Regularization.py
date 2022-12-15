@@ -239,10 +239,6 @@ train_error = Calc_MSE(x_train, y_train, coefs)
 test_error = Calc_MSE(x_test, y_test, coefs)
 train_error, test_error
 
-
-# In[58]:
-
-
 from scipy.linalg import lstsq
 
 x_train, x_test, y_train, y_test = train_test_split(features, target1)
