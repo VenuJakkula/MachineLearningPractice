@@ -234,9 +234,6 @@ def Calc_MSE(X, y_test, coefficients):
     return score
 
 
-# In[33]:
-
-
 # objective(X,y, coefs)
 train_error = Calc_MSE(x_train, y_train, coefs)
 test_error = Calc_MSE(x_test, y_test, coefs)
