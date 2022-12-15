@@ -224,9 +224,6 @@ theta_star = np.linalg.inv(X_b.T.dot(X_b)).dot(X_b.T).dot(y)
 theta_star.shape
 
 
-# In[59]:
-
-
 ypredict = X_b.dot(theta_star.ravel())
 mean_squared_error(ypredict, y_train.values)
 
