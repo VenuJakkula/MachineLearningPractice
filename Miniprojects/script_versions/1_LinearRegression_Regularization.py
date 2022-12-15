@@ -227,10 +227,6 @@ theta_star.shape
 ypredict = X_b.dot(theta_star.ravel())
 mean_squared_error(ypredict, y_train.values)
 
-
-# In[32]:
-
-
 def Calc_MSE(X, y_test, coefficients):
 
     X = np.append(np.ones((X.shape[0],1)),X, axis=1)
