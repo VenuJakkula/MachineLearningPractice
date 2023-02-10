@@ -254,8 +254,6 @@ print(np.sum((X.dot(p)-y)**2)/X.shape[0])
 # 
 # Hint: [link](https://medium.com/@lope.ai/multivariate-linear-regression-from-scratch-in-python-5c4f219be6a)
 
-# In[34]:
-
 
 X = x_train
 y = y_train
