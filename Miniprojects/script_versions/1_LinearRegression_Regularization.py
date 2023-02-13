@@ -265,9 +265,6 @@ def cost_function(X, Y, B):
   return mean_squared_error(Y, X.dot(B))
 
 
-# In[36]:
-
-
 def batch_gradient_descent(X, Y, B, alpha, iterations):
   cost_history = [0] * iterations
   m = len(Y)
