@@ -261,10 +261,6 @@ y = y_train
 X = np.append(np.ones((X.shape[0],1)),X, axis=1)
 X.shape
 
-
-# In[35]:
-
-
 def cost_function(X, Y, B):
   return mean_squared_error(Y, X.dot(B))
 
