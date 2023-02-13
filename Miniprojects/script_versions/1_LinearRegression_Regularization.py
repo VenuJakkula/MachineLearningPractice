@@ -285,9 +285,6 @@ newB, cost_history = batch_gradient_descent(X, y.values.ravel(), B, alpha, iter_
 newB, cost_history[-1]
 
 
-# In[37]:
-
-
 # test error
 X_test = np.append(np.ones((x_test.shape[0],1)),x_test, axis=1)
 cost_function(X_test,y_test, newB)
