@@ -35,15 +35,10 @@ bikeshare = pd.read_csv('hour.csv')
 # * Apply scaling on continuous features 
 # * Apply one-hot encoding on categorical features
 # * Create features by concatenating all one hot encoded features and scaled features except target variables
-# 
 # * Find the coefficients of the features using normal equation and find the cost (error)
-# 
 # * Apply batch gradient descent technique by taking one target variable (cnt) and find the best coefficients
-# 
 # * Apply SGD Regressor using sklearn
-# 
 # * Apply linear regression using sklearn by taking two target variables (casual, registered)
-# 
 # * Apply Lasso, Ridge, Elasticnet Regression
 
 # ### EDA &  Visualization
